@@ -23,7 +23,7 @@ class MainActivity : AppCompatActivity() {
             startActivity(intent)
         }else
             //enviamos un mensaje por pantalla
-            Toast.makeText(this, "Es necesario introducir el nombre",Toast.LENGTH_LONG).show()
+            Toast.makeText(this, getString(R.string.msj_nombre),Toast.LENGTH_LONG).show()
     }
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)

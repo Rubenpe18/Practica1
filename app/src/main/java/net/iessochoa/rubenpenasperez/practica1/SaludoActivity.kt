@@ -18,6 +18,6 @@ class SaludoActivity : AppCompatActivity() {
         //recuperamos el valor enviado por MainActivity
         val nombre=intent.getStringExtra(EXTRA_NOMBRE)
         //mostramos el valor
-        tvSaludo.text="Hola "+nombre+"!!"
+        tvSaludo.text=String.format(getString(R.string.saludo),nombre)
     }
 }

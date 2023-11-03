@@ -2,4 +2,6 @@
     <string name="app_name">Practica1</string>
     <string name="pr_ctica_1_rub_n_pe_as_p_rez">Práctica 1: Rubén Peñas Pérez</string>
     <string name="introduce_tu_nombre">Introduce tu nombre</string>
+    <string name="msj_nombre">Es necesario introducir el nombre</string>
+    <string name="saludo">Hola %s!!</string>
 </resources>
